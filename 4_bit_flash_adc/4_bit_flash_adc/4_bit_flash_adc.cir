@@ -1,0 +1,61 @@
+* C:\Users\vansh\eSim-Workspace\4_bit_flash_adc\4_bit_flash_adc.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 10/8/2022 1:43:32 PM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+X1  Vcc Net-_X1-Pad2_ Net-_SC2-Pad1_ Vinp Net-_U3-Pad2_ GND avsd_opamp		
+X10  Vcc Net-_X1-Pad2_ Net-_SC3-Pad1_ Vinp Net-_U3-Pad3_ GND avsd_opamp		
+X2  Vcc Net-_X1-Pad2_ Net-_SC4-Pad1_ Vinp Net-_U3-Pad4_ GND avsd_opamp		
+X11  Vcc Net-_X1-Pad2_ Net-_SC5-Pad1_ Vinp Net-_U3-Pad5_ GND avsd_opamp		
+X9  Vcc Net-_X1-Pad2_ Net-_SC1-Pad1_ Vinp Net-_U3-Pad1_ GND avsd_opamp		
+X3  Vcc Net-_X1-Pad2_ Net-_SC6-Pad1_ Vinp Net-_U3-Pad6_ GND avsd_opamp		
+X12  Vcc Net-_X1-Pad2_ Net-_SC7-Pad1_ Vinp Net-_U3-Pad7_ GND avsd_opamp		
+X4  Vcc Net-_X1-Pad2_ Net-_SC8-Pad1_ Vinp Net-_U3-Pad8_ GND avsd_opamp		
+U3  Net-_U3-Pad1_ Net-_U3-Pad2_ Net-_U3-Pad3_ Net-_U3-Pad4_ Net-_U3-Pad5_ Net-_U3-Pad6_ Net-_U3-Pad7_ Net-_U3-Pad8_ Net-_U3-Pad9_ Net-_U3-Pad10_ Net-_U3-Pad11_ Net-_U3-Pad12_ Net-_U3-Pad13_ Net-_U3-Pad14_ Net-_U3-Pad15_ Net-_U3-Pad16_ adc_bridge_8		
+v3  Vcc GND DC		
+v4  GND Net-_X1-Pad2_ DC		
+SC1  Net-_SC1-Pad1_ Vref Net-_SC1-Pad3_ sky130_fd_pr__res_generic_pd		
+SC3  Net-_SC3-Pad1_ Net-_SC2-Pad1_ Net-_SC1-Pad3_ sky130_fd_pr__res_generic_pd		
+SC4  Net-_SC4-Pad1_ Net-_SC3-Pad1_ Net-_SC1-Pad3_ sky130_fd_pr__res_generic_pd		
+SC5  Net-_SC5-Pad1_ Net-_SC4-Pad1_ Net-_SC1-Pad3_ sky130_fd_pr__res_generic_pd		
+SC6  Net-_SC6-Pad1_ Net-_SC5-Pad1_ Net-_SC1-Pad3_ sky130_fd_pr__res_generic_pd		
+SC7  Net-_SC7-Pad1_ Net-_SC6-Pad1_ Net-_SC1-Pad3_ sky130_fd_pr__res_generic_pd		
+SC8  Net-_SC8-Pad1_ Net-_SC7-Pad1_ Net-_SC1-Pad3_ sky130_fd_pr__res_generic_pd		
+SC2  Net-_SC2-Pad1_ Net-_SC1-Pad1_ Net-_SC1-Pad3_ sky130_fd_pr__res_generic_pd		
+SC17  Net-_SC17-Pad1_ Output0 Vcc sky130_fd_pr__res_generic_pd		
+SC18  Net-_SC18-Pad1_ Output1 Vcc sky130_fd_pr__res_generic_pd		
+SC19  Net-_SC19-Pad1_ Output2 Vcc sky130_fd_pr__res_generic_pd		
+U7  Output0 plot_v1		
+U8  Output1 plot_v1		
+U9  Output2 plot_v1		
+v1  Vref GND DC		
+v2  Vinp GND pulse		
+U1  Vref plot_v1		
+U2  Vinp plot_v1		
+scmode1  SKY130mode		
+X5  Vcc Net-_X1-Pad2_ Net-_SC10-Pad1_ Vinp Net-_U4-Pad2_ GND avsd_opamp		
+X14  Vcc Net-_X1-Pad2_ Net-_SC11-Pad1_ Vinp Net-_U4-Pad3_ GND avsd_opamp		
+X6  Vcc Net-_X1-Pad2_ Net-_SC12-Pad1_ Vinp Net-_U4-Pad4_ GND avsd_opamp		
+X15  Vcc Net-_X1-Pad2_ Net-_SC13-Pad1_ Vinp Net-_U4-Pad5_ GND avsd_opamp		
+X13  Vcc Net-_X1-Pad2_ Net-_SC10-Pad2_ Vinp Net-_U4-Pad1_ GND avsd_opamp		
+X7  Vcc Net-_X1-Pad2_ Net-_SC14-Pad1_ Vinp Net-_U4-Pad6_ GND avsd_opamp		
+X16  Vcc Net-_X1-Pad2_ Net-_SC15-Pad1_ Vinp Net-_U4-Pad7_ GND avsd_opamp		
+X8  Vcc Net-_X1-Pad2_ GND Vinp Net-_U4-Pad8_ GND avsd_opamp		
+U4  Net-_U4-Pad1_ Net-_U4-Pad2_ Net-_U4-Pad3_ Net-_U4-Pad4_ Net-_U4-Pad5_ Net-_U4-Pad6_ Net-_U4-Pad7_ Net-_U4-Pad8_ Net-_U4-Pad9_ Net-_U4-Pad10_ Net-_U4-Pad11_ Net-_U4-Pad12_ Net-_U4-Pad13_ Net-_U4-Pad14_ Net-_U4-Pad15_ Net-_U4-Pad16_ adc_bridge_8		
+SC9  Net-_SC10-Pad2_ Net-_SC8-Pad1_ Net-_SC10-Pad3_ sky130_fd_pr__res_generic_pd		
+SC11  Net-_SC11-Pad1_ Net-_SC10-Pad1_ Net-_SC10-Pad3_ sky130_fd_pr__res_generic_pd		
+SC12  Net-_SC12-Pad1_ Net-_SC11-Pad1_ Net-_SC10-Pad3_ sky130_fd_pr__res_generic_pd		
+SC13  Net-_SC13-Pad1_ Net-_SC12-Pad1_ Net-_SC10-Pad3_ sky130_fd_pr__res_generic_pd		
+SC14  Net-_SC14-Pad1_ Net-_SC13-Pad1_ Net-_SC10-Pad3_ sky130_fd_pr__res_generic_pd		
+SC15  Net-_SC15-Pad1_ Net-_SC14-Pad1_ Net-_SC10-Pad3_ sky130_fd_pr__res_generic_pd		
+SC16  GND Net-_SC15-Pad1_ Net-_SC10-Pad3_ sky130_fd_pr__res_generic_pd		
+SC10  Net-_SC10-Pad1_ Net-_SC10-Pad2_ Net-_SC10-Pad3_ sky130_fd_pr__res_generic_pd		
+U5  Net-_U3-Pad9_ Net-_U3-Pad10_ Net-_U3-Pad11_ Net-_U3-Pad12_ Net-_U3-Pad13_ Net-_U3-Pad14_ Net-_U3-Pad15_ Net-_U3-Pad16_ Net-_U4-Pad9_ Net-_U4-Pad10_ Net-_U4-Pad11_ Net-_U4-Pad12_ Net-_U4-Pad13_ Net-_U4-Pad14_ Net-_U4-Pad15_ Net-_U4-Pad16_ Net-_U5-Pad17_ Net-_U5-Pad18_ Net-_U5-Pad19_ Net-_U5-Pad20_ balakrishna_priority_encoder		
+SC20  Net-_SC20-Pad1_ Output3 Vcc sky130_fd_pr__res_generic_pd		
+U10  Output3 plot_v1		
+U6  Net-_U5-Pad17_ Net-_U5-Pad18_ Net-_U5-Pad19_ Net-_U5-Pad20_ Net-_SC17-Pad1_ Net-_SC18-Pad1_ Net-_SC19-Pad1_ Net-_SC20-Pad1_ dac_bridge_4		
+
+.end
