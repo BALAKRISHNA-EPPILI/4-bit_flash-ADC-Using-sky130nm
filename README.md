@@ -330,7 +330,7 @@ of analog as well as digital circuits.
 ## Steps to run this project
 1. Open a new terminal
 2. Clone this project using the following command:</br>
-```git clone https://github.com/Eyantra698Sumanto/XOR-XNOR-Gate.git ```</br>
+```https://github.com/BALAKRISHNA-EPPILI/4-bit_flash-ADC-Using-sky130nm.git ```</br>
 3. Change directory:</br>
 ```cd eSim_project_files/xor_xnor```</br>
 4. Run ngspice:</br>
