@@ -215,8 +215,8 @@ reference voltage (Vref) is given on the other terminal or inverting terminal of
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/156943392-dd9a8a4d-54aa-4818-9587-f4779452a0f6.jpg"></br>
-  Fig.9: Comparator Circuit using OPAMP
+  <img src="https://user-images.githubusercontent.com/88899069/194721161-9fc7375b-4871-412c-bffc-ecaa91352977.png"></br>
+  Fig.9: Comparator Circuit 
 </p>
 
 ### Priority Encoder Schematic:
@@ -246,7 +246,7 @@ through a Comparator Circuit & implementation Specification.
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/156943557-9ce741a0-ddf4-43b3-b562-e1298bd30fd7.PNG"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/194721265-69129afb-8dd0-41e9-80f4-81f3e34a1580.png"></br>
   Fig.11: Analog Block circuit
 </p>
 
@@ -254,7 +254,7 @@ through a Comparator Circuit & implementation Specification.
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/156943564-d857630b-afd8-4e13-938d-7cc6899a4a17.PNG"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/194721282-310a8d14-2869-4be2-b572-d0b54bc966fd.png"></br>
   Fig.12: Digital Block circuit
 </p>
 
@@ -264,38 +264,8 @@ of analog as well as digital circuits.
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/156943437-1d55523a-49a6-45c4-bf9b-ee6aa1a2a7dc.PNG"></br>
-  Fig.13.1: Mixed Signal circuit(1)
-</p>
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/156943448-425bafb9-de25-4c16-a42e-927da618bf89.PNG"></br>
-  Fig.13.2: Mixed Signal circuit(2)
-</p>
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/156943468-55028906-b79e-4dad-8acb-3fee688bd624.PNG"></br>
-  Fig.13.3: Mixed Signal circuit(3)
-</p>
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/156943406-8d0e3279-6a49-4747-87c2-45b28cba7fad.PNG"></br>
-  Fig.13.4: Mixed Signal circuit(4)
-</p>
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/157104722-64f1b699-6f3e-4c23-9d94-c00cd3d0b0eb.PNG"></br>
-  Fig.13.5: Mixed Signal circuit(5)
-</p>
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/157104317-cc6c9181-3be7-4aee-89b0-957d73cfbd7c.PNG"></br>
-  Fig.13.6: Mixed Signal circuit(6)
+  <img src="https://user-images.githubusercontent.com/88899069/194721356-d43b7e2e-ed37-40a4-ac9c-afdf953e9634.png"></br>
+  Fig.13.1: Mixed Signal circuit
 </p>
 
 ## Simulations:
@@ -317,45 +287,28 @@ of analog as well as digital circuits.
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/156943639-5cc17704-6424-47b1-bf68-38eda56ba2cb.jpg"></br>
-  Fig.16:  comparator waveform(1) 
-</p>
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/156943712-a534312a-a790-4a8d-af7d-7d0f21f8d01b.jpg"></br>
-  Fig.17: comparator waveform(2)
-</p>
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/156943724-e4588d35-64f0-4ad8-b32f-ae1333381840.jpg"></br>
-  Fig.18: comparator waveform(3)
+  <img src="https://user-images.githubusercontent.com/88899069/194721461-0b8355b4-0108-406c-a740-afa588dc2414.png"></br>
+  Fig.16:  comparator waveform
 </p>
 
 ### 4-bit_Flash_ADC Waveform:
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/156944039-3913eec3-1e61-4cf3-8dbb-a598932e16b2.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/194721487-ba37173d-055c-4f10-b12f-473ac2c7d177.png"></br>
   Fig.19.1: 4-bit_flash_adc_waveform(1)
 </p>
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/157019600-ab4af632-2a71-4581-9a5a-5474036084d5.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/194721509-0720646d-9051-439b-917d-069ed8599bdd.png"></br>
   Fig.19.2: 4-bit_flash_adc_waveform(2)
 </p>
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/157114728-28631495-baed-4ade-b245-23242913876a.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/194721523-a113da4b-8194-4ff5-8002-6d98240dcd11.png"></br>
   Fig.19.3: 4-bit_flash_adc_waveform(3)
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/157019187-68698ba8-16b1-4ee1-aaf5-e1217be3a986.jpg"></br>
-  Fig.19.4: 4-bit_flash_adc_waveform(4)
 </p>
 
 # Netlist: 
