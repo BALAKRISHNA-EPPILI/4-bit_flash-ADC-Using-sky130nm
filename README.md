@@ -55,7 +55,7 @@ is fed to the concern encoder to acquire the digitalized output.
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/156445831-394b7a12-3a98-4a00-822e-c5292e27befb.png"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/194710428-5cc327cd-72df-4b1b-ba47-91368147ba0a.png"></br>
    fig.1: REFERENCE CIRCUIT 4-bit_Flash_ADC 
 </p>
 
