@@ -332,9 +332,9 @@ of analog as well as digital circuits.
 2. Clone this project using the following command:</br>
 ```https://github.com/BALAKRISHNA-EPPILI/4-bit_flash-ADC-Using-sky130nm.git ```</br>
 3. Change directory:</br>
-```cd eSim_project_files/xor_xnor```</br>
+```cd eSim_4_bit_flash_adc```</br>
 4. Run ngspice:</br>
-```ngspice xor_xnor.cir.out```</br>
+```ngspice 4_bit_flash_adc.cir.out```</br>
 5. To run the project in eSim:
 
   - Run eSim</br>
