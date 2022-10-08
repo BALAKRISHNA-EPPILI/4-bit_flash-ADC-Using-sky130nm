@@ -1,0 +1,19 @@
+* C:\Users\vansh\eSim-Workspace\opamp\opamp.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 10/5/2022 3:26:40 PM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+X1  Net-_X1-Pad1_ Net-_X1-Pad2_ vref vinp vout GND avsd_opamp		
+v1  vref GND DC		
+v2  vinp GND pulse		
+v3  Net-_X1-Pad1_ GND DC		
+v4  GND Net-_X1-Pad2_ DC		
+U3  vout plot_v1		
+U1  vref plot_v1		
+U2  vinp plot_v1		
+scmode1  SKY130mode		
+
+.end

@@ -1,0 +1,30 @@
+* c:\users\vansh\esim-workspace\opamp\opamp.cir
+
+.include avsd_opamp.sub
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__linear.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__pnp.model.spice"
+.lib "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130.lib.spice" tt
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__inductors.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__r+c.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
+x1 net-_x1-pad1_ net-_x1-pad2_ vref vinp vout gnd avsd_opamp
+v1 vref gnd  dc 0.9
+v2  vinp gnd pulse(0 1.8 0.1m 200m 200m 2m 402m)
+v3 net-_x1-pad1_ gnd  dc 1.8
+v4 gnd net-_x1-pad2_  dc 1.8
+* u3  vout plot_v1
+* u1  vref plot_v1
+* u2  vinp plot_v1
+* s c m o d e
+.tran 1e-03 1e-00 0e-03
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(vout) 
+plot v(vref) v(vinp)
+.endc
+.end
